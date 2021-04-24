@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.giuaki">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GiuaKi"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".login.ResignActivity2" />
+        <activity android:name=".ActivityHomePage" />
+        <activity android:name=".login.ResignActivity1" />
+        <activity android:name=".login.LoginActivity2" />
+        <activity android:name=".login.LoginActivity" />
+        <activity android:name=".qlphieumuon.ChiTietPMActivity" />
+        <activity android:name=".qlphieumuon.PhieuMuonsachActivity" />
+        <activity android:name=".qldgia.DataDocgiaActivity" />
+        <activity android:name=".qlsach.SachActivity" />
+        <activity android:name=".qltthu.ThuthuActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tV_id_phieu"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="IDPhieu"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tV_id_dg_muon"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Id DG"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tV_id_tt_qli"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="ID TT"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tV_ngay_muon"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Ngay"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tV_ghi_chu"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Ghi chu"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center" />
+</LinearLayout>

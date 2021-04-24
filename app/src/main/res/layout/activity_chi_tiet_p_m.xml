@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".qlphieumuon.ChiTietPMActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnBack_chitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="#9C151515"
+        android:textStyle="bold"
+        android:text="BACK" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imgAvt_DG_MuonSach"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/conan97" />
+
+        <TextView
+            android:id="@+id/tVHoVaTen_DGMS"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold|italic"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="TextView" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DANH SACH SACH MUON"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/design_default_color_error"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tVBia"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Bia"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tVName"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Ten sach"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tVGia"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Gia"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tVSl"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="Sl"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lVDSSach_damuon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

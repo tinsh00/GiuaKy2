@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".qlsach.SachActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnBacK_Phieu"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:backgroundTint="#79000000"
+            android:text="BACK" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_loc_theo_gchu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Chua tra du" />
+
+            <EditText
+                android:id="@+id/eT_cantim"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btnSearch_Phieu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/purple_700"
+                android:text="Search" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tV0"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="IDPhieu"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tV00"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Id DG"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tV000"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="ID TT"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tV0000"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Ngay"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Ghi chu"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <!--    <Spinner-->
+        <!--        android:id="@+id/spinner_quick_menu"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+
+        <!--        android:spinnerMode="dropdown"-->
+        <!--        />-->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listVDSPMuon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

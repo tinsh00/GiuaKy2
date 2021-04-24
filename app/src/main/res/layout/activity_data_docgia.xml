@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".qlsach.SachActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBacK_DGia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:backgroundTint="#79000000"/>
+        <Button
+            android:id="@+id/btnAdd_DGia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm đọc giả"
+            android:backgroundTint="#79000000"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tVAvt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Avatar"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tVIdDG"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Id DGia"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tVNameDG"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Ten Dgia"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tVTTDG"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="TT"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <!--    <Spinner-->
+        <!--        android:id="@+id/spinner_quick_menu"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+
+        <!--        android:spinnerMode="dropdown"-->
+        <!--        />-->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listVDSDGia"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
